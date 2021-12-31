@@ -1,9 +1,6 @@
 ﻿
-
-
-
-
-
+let navbar = document.getElementById('navbar');
+let navbarSupportedContent = document.getElementById('navbarSupportedContent')
 
 window.onscroll = function () {
     if(window.scrollY >=200){
@@ -40,6 +37,3 @@ window.onload = function () {
 document.getElementById('fullYear').innerHTML = new Date().getFullYear();
 
 
-$('.navbar-toggler').on('click',function(){
-    $('.navbar-collapse').css('background-color','#212529');
-});

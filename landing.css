@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Great+Vibes&family=Lobster+Two:ital@1&family=Poppins:wght@200&family=Roboto:ital@1&display=swap');
-
+﻿@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Great+Vibes&family=Lobster+Two:ital@1&family=Poppins:wght@200&family=Roboto:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Great+Vibes&family=Lobster+Two:ital@1&family=The+Nautigal:wght@700&display=swap');
 
 
@@ -21,6 +20,7 @@ body{
 
 nav.navbar{
     z-index: 15;
+    width: 100%;
 }
 
 nav.navbar a.navbar-brand{
@@ -37,8 +37,8 @@ nav.navbar .navbar-nav .nav-item a.nav-link{
     transition: all .6s;
 }
 
-nav.navbar .navbar-toggler{
-    color: #B91646;;
+nav.navbar button.navbar-toggler{
+    color: #B91646;
     background-color: #105652;
     outline: none !important;
 }
@@ -55,7 +55,7 @@ nav.navbar .navbar-nav .nav-item.active a.nav-link{
 /*start of header*/
 
 header{
-    background-image:url(bg2.jpg);
+    background-image:url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -297,7 +297,7 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.close:hover{
 /*end of gallery section*/
 
 section.statistics{
-    background-image: url(bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -622,6 +622,53 @@ footer.footer .copyright{
 footer.footer .copyright p{
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     nav.navbar a.navbar-brand{
         font-size: 30px;
