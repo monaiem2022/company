@@ -37,3 +37,39 @@ window.onload = function () {
 document.getElementById('fullYear').innerHTML = new Date().getFullYear();
 
 
+/*
+// to scroll to element wit smooth
+$('.navbar li a').on('click',function(e){
+    e.preventDefault();
+
+    $('html, body').animate({
+        
+        scrollTop: $('#' +  $(this).data('scroll')).offset().top
+    }, 1500)
+
+    
+})
+*/
+
+
+$('.navbar li a').on('click',function(){
+    $('html, body').animate({
+        scrollTop: $('#' + $(this).data('scroll')).offset().top
+    }, 1500)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
