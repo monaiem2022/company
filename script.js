@@ -1,4 +1,4 @@
-﻿/*
+
 let navbar = document.getElementById('navbar');
 let navbarSupportedContent = document.getElementById('navbarSupportedContent')
 
@@ -19,7 +19,7 @@ window.onscroll = function () {
         navbarSupportedContent.style.backgroundColor = '';
     }
 }
-*/
+
 
 
 
