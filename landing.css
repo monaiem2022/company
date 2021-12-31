@@ -575,12 +575,12 @@ section.statistics .overlay i{
 section.statistics .overlay .count{
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
 }
 
 section.statistics .overlay span.counter{
     font-size: 18px;
-    color:#333;
+    color:#fff;
     font-weight: bold;
 }
 
@@ -602,7 +602,7 @@ footer.footer .top-footer  h5{
 footer.footer .top-footer .about-us p{
     font-size: 20px;
     line-height: 22px;
-    color:#333;
+    color:#fff;
     margin-bottom: 30px;
 }
 
@@ -621,6 +621,7 @@ footer.footer .copyright{
 
 footer.footer .copyright p{
     font-size: 20px;
+    color:#fff;
 }
 
 
