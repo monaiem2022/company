@@ -55,7 +55,7 @@ nav.navbar .navbar-nav .nav-item.active a.nav-link{
 /*start of header*/
 
 header{
-    background-image:url(bg2.jpg);
+    background-image:url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -297,7 +297,7 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.close:hover{
 /*end of gallery section*/
 
 section.statistics{
-    background-image: url(bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -554,9 +554,31 @@ section.gallery .gallery-work .gallery-overlay .overlay-text h4{
 
 }
 
+
+section.gallery .gallery-work .gallery-overlay .overlay-text ul{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+} 
+
+section.gallery .gallery-work .gallery-overlay .overlay-text li i{
+    color: #105652;
+    opacity: .7;
+}
+
+section.gallery .gallery-work .gallery-overlay .overlay-text li a{
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .7;
+}
+
+
 section.gallery .gallery-work .gallery-overlay .overlay-text p{
     font-size: 18px;
     line-height: 1.6;
+    color:#fff;
+    opacity: .7;
 }
 
 section.gallery .gallery-work .gallery-overlay .overlay-text a.btn{
@@ -593,6 +615,7 @@ footer.footer .top-footer{
 
 footer.footer .top-footer  h5{
     font-size: 20px;
+    font-weight: bold;
     line-height: 45px;
     color:#B91646;
     margin-bottom: 10px;
@@ -601,14 +624,17 @@ footer.footer .top-footer  h5{
 
 footer.footer .top-footer .about-us p{
     font-size: 20px;
-    line-height: 22px;
+    line-height: 25px;
     color:#fff;
     margin-bottom: 30px;
+    opacity: .7;
 }
 
 footer.footer .top-footer ul.contact-list li{
-    font-size: 20px;
+    font-size: 18px;
+    color: #fff;
     margin-bottom: 35px;
+    opacity: .7;
 }
 
 
@@ -622,6 +648,7 @@ footer.footer .copyright{
 footer.footer .copyright p{
     font-size: 20px;
     color:#fff;
+    opacity: .7;
 }
 
 
