@@ -1,4 +1,4 @@
-﻿
+﻿/*
 let navbar = document.getElementById('navbar');
 let navbarSupportedContent = document.getElementById('navbarSupportedContent')
 
@@ -8,12 +8,18 @@ window.onscroll = function () {
         navbar.style.height = '65px';
         navbarSupportedContent.style.backgroundColor = '#212529';
     }
+
+
+    
+
+
+  
     else{
         navbar.style.backgroundColor = '';
         navbarSupportedContent.style.backgroundColor = '';
     }
 }
-
+*/
 
 
 
@@ -37,7 +43,7 @@ window.onload = function () {
 document.getElementById('fullYear').innerHTML = new Date().getFullYear();
 
 
-/*
+
 // to scroll to element wit smooth
 $('.navbar li a').on('click',function(e){
     e.preventDefault();
@@ -45,18 +51,34 @@ $('.navbar li a').on('click',function(e){
     $('html, body').animate({
         
         scrollTop: $('#' +  $(this).data('scroll')).offset().top
-    }, 1500)
+    }, 1500) 
+});
 
-    
+
+//active class on hoveror on click with adding and removing the class//
+
+$('.navbar li').on('mouseover',function(){
+   
+    $(this).addClass('active').siblings().removeClass('active');
 })
-*/
 
 
-$('.navbar li a').on('click',function(){
-    $('html, body').animate({
-        scrollTop: $('#' + $(this).data('scroll')).offset().top
-    }, 1500)
+
+
+$(window).on('scroll',function(){
+    let services = $('.services');
+    if($(window).scrollTop() >400){
+        if(services.is(':hidden')){
+            services.fadeIn()
+            services.animate({
+                
+            }, 3500)
+            
+        }
+      
+    }
 })
+
 
 
 
