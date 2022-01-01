@@ -60,7 +60,7 @@ nav.navbar .navbar-nav .nav-item.active a.nav-link{
 /*start of header*/
 
 header{
-    background-image:url(../images/bg2.jpg);
+    background-image:url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -349,7 +349,7 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.close{
 /*end of gallery section*/
 
 section.statistics{
-    background-image: url(../images/bg.jpg);
+    background-image: url(bg.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
