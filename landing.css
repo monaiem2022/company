@@ -10,10 +10,15 @@ button hover color = B91646;
 *{
     padding: 0;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
     font-family: poppins,sans-serif;
+    
+    
 }
 
 /*start of nav*/
@@ -55,7 +60,7 @@ nav.navbar .navbar-nav .nav-item.active a.nav-link{
 /*start of header*/
 
 header{
-    background-image:url(bg2.jpg);
+    background-image:url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -223,6 +228,32 @@ section.gallery .gallery-work .gallery-overlay{
     transition: all 1s ease;
 }
 
+.smallimg{
+    display: flex;
+    margin-top: 2px;
+    
+}
+.smallimg img{
+  width: 19.2%;
+  height:10%;
+  border: 2px solid #333;
+  transition:all .6s ease-in-out;
+  opacity: .6;
+}
+
+.smallimg img.selected{
+    opacity: 1;
+    border: 2px solid #BBB;
+}
+
+
+.smallimg img:not(:last-child){
+    margin-right: 1%;
+    
+}
+
+
+
 section.gallery .gallery-work .gallery-overlay:target{
     opacity: 1;
     margin-top: 0;
@@ -297,7 +328,7 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.close:hover{
 /*end of gallery section*/
 
 section.statistics{
-    background-image: url(bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -383,16 +414,38 @@ section.contacts .contact-form form textarea{
     outline: none !important;
 }
 
-section.contacts .contact-form form .btn{
+section.contacts .contact-form form .button-effect{
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+section.contacts .contact-form form .button-effect .btn{
     background-color:#105652; 
     transition: all .6s ease;
     box-shadow: none !important;
+    width: 200px;
 }
 
-section.contacts .contact-form form .btn:hover{
-    background-color:#B91646;; 
-
+section.contacts .contact-form form .button-effect span:first-child{
+    position:absolute;
+    height:100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    background-color: #B91646;;
+    display: block;
+    z-index: 1;
 }
+
+section.contacts .contact-form form .button-effect span:last-child{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+    
 
 /*end of contacts secton*/
 
@@ -498,6 +551,11 @@ footer.footer .copyright p{
     color:#fff;
     opacity: .7;
 }
+
+
+
+
+
 
 
 
