@@ -45,7 +45,7 @@ document.getElementById('fullYear').innerHTML = new Date().getFullYear();
 
 
 // to scroll to element wit smooth
-$('.navbar li a').on('click',function(e){
+$('.navbar li').on('click',function(e){
     e.preventDefault();
 
     $('html, body').animate({
@@ -65,19 +65,6 @@ $('.navbar li').on('mouseover',function(){
 
 
 
-$(window).on('scroll',function(){
-    let services = $('.services');
-    if($(window).scrollTop() >400){
-        if(services.is(':hidden')){
-            services.fadeIn()
-            services.animate({
-                
-            }, 3500)
-            
-        }
-      
-    }
-})
 
 
 
