@@ -366,18 +366,15 @@ section.statistics .overlay i{
 }
 
 section.statistics .overlay .count{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #1F1A1A;
-    margin: 20px auto;
 }
 
 section.statistics .overlay span.counter{
-  
     font-size: 18px;
-    line-height: 22px;
     color:#1F1A1A;
-  
+    font-weight: bold;
 }
 
 /*end of statistcs section*/
