@@ -36,15 +36,15 @@ nav.navbar a.navbar-brand{
 
 nav.navbar .navbar-nav .nav-item a.nav-link{
     font-size: 16px;
-    color:#EEEBDD;
+    color:#fff;
     line-height: 40px;
     padding: 0 16px;
     transition: all .6s;
 }
 
 nav.navbar button.navbar-toggler{
-    color: #B91646;
-    background-color: #105652;
+    color: #fff;
+    background-color: #1F1A1A;
     outline: none !important;
 }
 
@@ -60,7 +60,7 @@ nav.navbar .navbar-nav .nav-item.active a.nav-link{
 /*start of header*/
 
 header{
-    background-image:url(bg2.jpg);
+    background-image:url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@ header .overlay .carousel .carousel-item .carousel-content h2{
 
 header .overlay .carousel .carousel-item .carousel-content a{
     padding: 13px 47px;
-    background-color:#105652; 
+    background-color:#1F1A1A; 
     color: #fff;
     font-size:18px;
     border-radius:30px;
@@ -105,8 +105,8 @@ header .overlay .carousel .carousel-item .carousel-content a{
 }
 
 header .overlay .carousel .carousel-item .carousel-content a:hover{
-    background-color: #B91646;
-    color: #fff;
+    background-color: #fff;
+    color: #1F1A1A;
 }
 
 /*end of header*/
@@ -122,7 +122,7 @@ section.services{
 section.services .services-title h3{
     font-size: 40px;
     margin-bottom: 50px;
-    color:#070c0c;;
+    color:#1F1A1A;
 }
 
 section.services .card{
@@ -227,10 +227,15 @@ section.gallery .gallery-work .gallery-overlay{
     margin-top: -150vh;
     transition: all 1s ease;
 }
+/*                                           */
+.overlay-image{
+   height: 327px;
+}
 
 .smallimg{
     display: flex;
     margin-top: 2px;
+    cursor: pointer;
     
 }
 .smallimg img{
@@ -246,6 +251,26 @@ section.gallery .gallery-work .gallery-overlay{
     border: 2px solid #BBB;
 }
 
+.overlay-image{
+    position: relative;
+}
+.fa-chevron-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: red;
+    z-index: 4;
+    
+}
+
+.fa-chevron-left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 5;
+
+}
+/*                                 */
 
 .smallimg img:not(:last-child){
     margin-right: 1%;
@@ -292,7 +317,7 @@ section.gallery .gallery-work .gallery-overlay .overlay-text p{
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
 }
 
 
@@ -311,7 +336,7 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.btn:hover{
 }
 
 section.gallery .gallery-work .gallery-overlay .overlay-text a.close{
-    color:#B91646;
+    color:#fff;
     position: absolute;
     top:5px;
     right: 0;
@@ -320,15 +345,11 @@ section.gallery .gallery-work .gallery-overlay .overlay-text a.close{
     text-decoration: none;
 }
 
-section.gallery .gallery-work .gallery-overlay .overlay-text a.close:hover{
-    color:#fff;
- 
-}
 
 /*end of gallery section*/
 
 section.statistics{
-    background-image: url(bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -341,13 +362,13 @@ section.statistics .overlay{
 
 section.statistics .overlay i{
     font-size: 40px;
-    color: #fff;
+    color: #1F1A1A;
 }
 
 section.statistics .overlay .count{
     font-size: 30px;
     font-weight: bold;
-    color: #B91646;
+    color: #1F1A1A;
     margin: 20px auto;
 }
 
@@ -355,7 +376,7 @@ section.statistics .overlay span.counter{
   
     font-size: 18px;
     line-height: 22px;
-    color:#B91646;
+    color:#1F1A1A;
   
 }
 
@@ -399,7 +420,7 @@ section.contacts .contact-form{
 
 section.contacts .contact-form form .form-group input.form-control{
     box-shadow: none !important;
-    border: 1px solid #B91646;
+    border: 1px solid #1F1A1A;
 }
 
 section.contacts .contact-form form textarea{
@@ -410,7 +431,7 @@ section.contacts .contact-form form textarea{
 
 section.contacts .contact-form form textarea{
     box-shadow: none !important;
-    border: 1px solid #B91646;
+    border: 1px solid #1F1A1A;
     outline: none !important;
 }
 
@@ -423,7 +444,6 @@ section.contacts .contact-form form .button-effect{
 }
 
 section.contacts .contact-form form .button-effect .btn{
-    background-color:#105652; 
     transition: all .6s ease;
     box-shadow: none !important;
     width: 200px;
@@ -435,7 +455,7 @@ section.contacts .contact-form form .button-effect span:first-child{
     width: 0;
     left: 0;
     top: 0;
-    background-color: #B91646;;
+    background-color:#1F1A1A;
     display: block;
     z-index: 1;
 }
@@ -444,6 +464,7 @@ section.contacts .contact-form form .button-effect span:last-child{
     position: relative;
     z-index: 2;
     width: 100%;
+    
 }
     
 
@@ -458,7 +479,7 @@ footer.footer .top-footer{
 footer.footer .top-footer  h5{
     font-size: 18px;
     line-height: 45px;
-    color:#B91646;
+    color:#fff;
     margin-bottom: 30px;
     position: relative;
 }
@@ -476,7 +497,7 @@ footer.footer .top-footer h5::after{
 footer.footer .top-footer .about-us p{
     font-size: 15px;
     line-height: 22px;
-    color:#333;
+    color:#fff;
     margin-bottom: 60px;
 }
 
@@ -484,8 +505,8 @@ footer.footer .top-footer .about-us ul a{
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background-color: #105652;
-    color:#B91646;
+    background-color: #1F1A1A;
+    color:#fff;
     display: block;
     border-radius: 2px;
     text-align: center;
@@ -497,8 +518,8 @@ footer.footer .top-footer .about-us ul a:hover{
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background-color: #B91646;
-    color:#105652;
+    background-color: #fff;
+    color:#1F1A1A;
     display: block;
     border-radius: 2px;
     text-align: center;
@@ -512,7 +533,7 @@ footer.footer .top-footer ul.contact-list{
 
 footer.footer .top-footer ul.contact-list li{
     font-size: 18px;
-    color: #333;
+    color: #fff;
     margin-bottom: 35px;
 }
 
@@ -521,8 +542,8 @@ footer.footer .top-footer ul.contact-list li i{
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background-color: #B91646;;
-    color:#105652;
+    background-color: #1F1A1A;;
+    color:#fff;
     border-radius: 2px;
     transition: all .6s ease;
     cursor: pointer;
@@ -535,13 +556,13 @@ footer.footer .top-footer ul.contact-list li i:hover{
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background-color: #105652;;
-    color:#B91646;
+    background-color: #fff;;
+    color:#1F1A1A;
     border-radius: 2px;
 }
 
 footer.footer .copyright{
-    background-color: #111111;
+    background-color: #1F1A1A;
     line-height: 50px;
     height: 50px;
 }
