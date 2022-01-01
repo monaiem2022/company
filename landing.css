@@ -417,15 +417,19 @@ section.contacts .contact-form{
 
 section.contacts .contact-form form .form-group input.form-control{
     box-shadow: none !important;
-    border: 1px solid #1F1A1A;
+    border: 1px solid #DEDEDE;
+    outline: 1px solid #DEDEDE;
 }
+
 
 section.contacts .contact-form form textarea{
     max-height: 300px;
     width: 100%;
     padding-left: 10px;
+    box-shadow: none !important;
+    border: 1px solid #DEDEDE;
+    outline: none !important;
 }
-
 section.contacts .contact-form form textarea{
     box-shadow: none !important;
     border: 1px solid #1F1A1A;
@@ -559,7 +563,7 @@ footer.footer .top-footer ul.contact-list li i:hover{
 }
 
 footer.footer .copyright{
-    background-color: #1F1A1A;
+    background-color: #212529;
     line-height: 50px;
     height: 50px;
 }
