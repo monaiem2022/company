@@ -730,6 +730,10 @@ footer.footer .copyright p{
     opacity: .7;
 }
 
+section.gallery .gallery-work .gallery-overlay .overlay-text{
+    margin-top: 20px;
+}
+
 
 
 
