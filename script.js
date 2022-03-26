@@ -3,7 +3,7 @@ let navbar = document.getElementById('navbar');
 let navbarSupportedContent = document.getElementById('navbarSupportedContent')
 
 window.onscroll = function () {
-    if(window.scrollY >=200){
+    if(window.scrollY >=100){
         navbar.style.backgroundColor = '#212529';
         navbar.style.height = '65px';
         navbarSupportedContent.style.backgroundColor = '#212529';
